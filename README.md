@@ -42,7 +42,7 @@ This application provides a simple and intuitive interface for users to compress
 1. Clone the repository:
    ```
    git clone https://github.com/satvik202/File-Compression-Huffman-coding/
-   cd huffman-file-compressor
+   cd File-Compression-Huffman-coding
    ```
 
 2. Install the required packages:
