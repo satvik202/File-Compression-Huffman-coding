@@ -5,6 +5,7 @@ from werkzeug.utils import secure_filename
 import tempfile
 from huffman import HuffmanCoding  # We'll import your existing code
 
+
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size

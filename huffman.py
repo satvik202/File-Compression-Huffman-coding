@@ -25,7 +25,6 @@ class HuffmanCoding:
                 return False
             return self.freq == other.freq
             
-    # functions from original implementation
     def make_frequency_dict(self, text):
         frequency = {}
         for character in text:
